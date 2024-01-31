@@ -1,12 +1,12 @@
 import { PokemonAPIPage } from "../models"
 
-export const creeatePokeapiPage = (pokeApiPage: any): PokemonAPIPage => {
+export const createPokeapiPage = (pokeApiPage: any): PokemonAPIPage => {
     
     return {
-        count: pokeApiPage.data.count,
-        next: pokeApiPage.data.next,
-        previous: pokeApiPage.data.previous,
+        count: pokeApiPage.count,
+        next: pokeApiPage.next,
+        previous: pokeApiPage.previous,
         //TODO REFATOR MAP RESULTS?
-        results: pokeApiPage.data.results,
+        results: pokeApiPage.results,
     }
 }

@@ -7,8 +7,8 @@ const useFetchAndLoad = () => {
     let controller: AbortController;
 
     const callEndpoint = async (axiosCall: AxiosCall<any>) => {
+         
         controller = axiosCall.controller;
-
         setLoading(true);
 
         let result = {} as AxiosResponse<any>
@@ -22,7 +22,7 @@ const useFetchAndLoad = () => {
 
     const cancelEndpoint = () => {
         setLoading(false);
-        controller.abort;
+        controller && controller.abort;
     }
 
     useEffect(() => {
