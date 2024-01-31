@@ -1,10 +1,14 @@
-import { useState } from "react";
+/*import { useState } from "react";
 import { useAsync, useFetchAndLoad } from "../../hooks"
 import { getPaginated } from "../../services/public.service";
 import { createPokeapiPage } from "../../adapters";
-import { PokemonAPIPage } from "../../models";
+import { PokemonAPIPage } from "../../models";*/
+
+import { useContext } from "react"
+import { GlobalContext } from "../../contexts/GlobalContext"
 
 export const Home = () => {
+    /*
     const { loading, callEndpoint } = useFetchAndLoad();
     const [page, setPage] = useState<null | PokemonAPIPage>(null);
 
@@ -18,7 +22,9 @@ export const Home = () => {
         setPage(createPokeapiPage(data));
     }
 
-    useAsync(getApiPage, adaptPage, () => {}, []);
+    useAsync(getApiPage, adaptPage, () => {}, []);*/
+
+    const { loading, page} = useContext(GlobalContext);
 
     return (
         <>

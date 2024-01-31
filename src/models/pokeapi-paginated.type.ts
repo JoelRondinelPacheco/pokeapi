@@ -9,3 +9,9 @@ export interface PokemonAPIPage {
     previous: string | null;
     results: EntityInfo[];
 }
+
+export interface getPaginatedProps {
+    url: string,
+    offset: number,
+    limit: number,
+}

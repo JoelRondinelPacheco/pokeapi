@@ -1,13 +1,10 @@
 import axios from "axios";
 import { loadAbort } from "../utilities/load-abort-axios-utility";
+import { getPaginatedProps } from "../models";
 
 
 //TODO TIPAR GET
-interface getPaginatedProps {
-    url: string,
-    offset: number,
-    limit: number,
-}
+
 export const getPaginated = (props: getPaginatedProps) => {
    const controller = loadAbort();
    return { 
