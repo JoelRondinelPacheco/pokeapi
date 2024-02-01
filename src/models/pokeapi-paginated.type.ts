@@ -1,4 +1,4 @@
-interface EntityInfo {
+export interface EntityInfo {
     name: string;
     url: string;
 }

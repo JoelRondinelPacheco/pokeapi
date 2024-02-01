@@ -1,5 +1,5 @@
 import axios from "axios";
-import { loadAbort } from "../utilities/load-abort-axios-utility";
+import { loadAbort } from "../utilities/load-abort-axios.utility";
 import { getPaginatedProps } from "../models";
 
 

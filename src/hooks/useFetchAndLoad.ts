@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
-import { AxiosCall } from "../models";
 import { AxiosResponse } from "axios";
+import { AxiosCall } from "../models";
 
 const useFetchAndLoad = () => {
     const [loading, setLoading] = useState(false);

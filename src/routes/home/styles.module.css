@@ -1,0 +1,12 @@
+li:nth-child(even) > :first-child {
+    order: 2;
+}
+
+li:nth-child(even) > :last-child {
+    order: 1;
+}
+
+.cardContainer {
+    padding-bottom: 90px;
+    width: 100%;
+}

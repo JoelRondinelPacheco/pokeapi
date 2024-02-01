@@ -1,0 +1,51 @@
+.bgGlass {
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+}
+
+h3 {
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 1rem;
+}
+
+h2 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+
+.imageContainer {
+    position: absolute;
+    left: -60px;
+    z-index: 1;
+}
+
+.imageContainer img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.infoContainer {
+    padding: 16px 16px 8px 150px;
+    width: 100%;
+}
+
+.info {
+    padding-left: 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.name {
+    font-size: 2rem;
+}
+
