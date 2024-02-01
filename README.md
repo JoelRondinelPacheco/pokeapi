@@ -1,11 +1,11 @@
-# Resolucion de prueba técninca para FOO Talent Group
+# Resolucion de prueba técnica para FOO Talent Group
 
 Para ejecutarlo:
   - Descargar o clonar el repositorio.
   - Ejecutar: npm install
   - Ejecutar: npm run dev
 
-# Tecnologias
+# Tecnologías
   - ReactJS
   - TypeScript
   - CSS
