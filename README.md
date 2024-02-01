@@ -1,4 +1,4 @@
-# Resolucion de prueba técnica para FOO Talent Group
+# Resolución de prueba técnica para FOO Talent Group
 
 Para ejecutarlo:
   - Descargar o clonar el repositorio.
